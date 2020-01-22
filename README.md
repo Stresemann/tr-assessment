@@ -1,5 +1,5 @@
 to run:
-node assessment-funcs.js
+npm start
 
 to test:
 npm run test
