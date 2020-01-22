@@ -2,9 +2,10 @@
   "name": "tr-assessment",
   "version": "1.0.0",
   "description": "to run:",
-  "main": "test.js",
+  "main": "assessment-funcs.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node assessment-funcs.js"
   },
   "repository": {
     "type": "git",

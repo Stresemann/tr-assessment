@@ -8,3 +8,7 @@ test('reverseString', () => {
 test('check beginning and end YES', () => {
     expect(testMethods.checkBeginningAndEnd("soon\nnoup\npoop\npoost")).toBe("YES");
 });
+
+test('check beginning and end NO', () => {
+    expect(testMethods.checkBeginningAndEnd("soon\nsoup\npoop\npoost")).toBe("NO");
+});
