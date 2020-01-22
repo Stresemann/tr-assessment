@@ -1,0 +1,23 @@
+{
+  "name": "tr-assessment",
+  "version": "1.0.0",
+  "description": "to run:",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stresemann/tr-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stresemann/tr-assessment/issues"
+  },
+  "homepage": "https://github.com/Stresemann/tr-assessment#readme",
+  "devDependencies": {
+    "expect": "^25.1.0",
+    "jest": "^25.1.0"
+  }
+}
