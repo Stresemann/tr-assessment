@@ -1,7 +1,7 @@
 'use strict';
 
-// console.log(reverseStringBy("what was the thing you said?\nwe need to talk", "\n"));
-// console.log(checkBeginningAndEnd("soon\nnoup\npoop\npoost"));
+console.log(reverseStringBy("what was the thing you said?\nwe need to talk", "\n"));
+console.log(checkBeginningAndEnd("soon\nnoup\npoop\npoost"));
 
 function reverseStringBy(str, split) {
   let splitSentence = str.split(split);

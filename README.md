@@ -1,3 +1,3 @@
 to run:
 
-node test.js
+node assessment-funcs.js
