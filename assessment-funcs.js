@@ -1,5 +1,4 @@
 function reverseString(str) {
-  console.log('reversing string', str);
   return str
     .split('')
     .reverse()
