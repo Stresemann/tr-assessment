@@ -1,5 +1,5 @@
 to run:
-npm start
+`npm start`
 
 to test:
-npm run test
+`npm run test`
