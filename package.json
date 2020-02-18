@@ -2,10 +2,10 @@
   "name": "tr-assessment",
   "version": "1.0.0",
   "description": "to run:",
-  "main": "assessment-funcs.js",
+  "main": "./assessment/assessment-funcs.js",
   "scripts": {
     "test": "jest",
-    "start": "node assessment-funcs.js",
+    "start": "node ./assessment/assessment-funcs.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -21,7 +21,6 @@
   "homepage": "https://github.com/Stresemann/tr-assessment#readme",
   "devDependencies": {
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^4.3.0",
     "eslint-config-wesbos": "0.0.19",
@@ -30,7 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-react-hooks": "^2.4.0",
     "expect": "^25.1.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
@@ -44,5 +43,8 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "eslint": "^5.16.0"
   }
 }

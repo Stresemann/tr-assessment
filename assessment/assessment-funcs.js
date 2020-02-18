@@ -1,3 +1,5 @@
+const lintMethods = require('../run-eslint');
+
 function reverseString(str) {
   return str
     .split('')
@@ -33,6 +35,11 @@ function checkBeginningAndEnd(str) {
     }
   });
   return yesNo;
+}
+
+if (lintMethods.lintFiles() > 0) {
+  console.error('Too many errors');
+  process.exit();
 }
 
 console.log(
